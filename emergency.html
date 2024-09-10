@@ -1,1 +1,321 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AccessLoan</title>
+<meta name="description" content="comfortable loan for every individual">
+<link rel="icon" href="logo.png">
+</head>
+<style>
+  *{
+  margin: 0;
+}
+body{
+  font-family: Sans-Serif;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+.home-cont{
+  width: 100%;
+  height: max-content;
+  margin-bottom: 50px;
+}
+.home-cont .up-cont{
+  width: 100%;
+  padding: 5% 0 15% 0;
+  background-image: radial-gradient(white, #03A9F4);
+  display: inline-flex;
+  justify-content: space-around;
+  border-radius: 0 0 30px 30px;
+}
+.home-cont .up-cont .left{
+  width: 50%;
+  margin-left: 5%;
+  position: relative;
+  top: 60px;
+}
+.home-cont .up-cont .right{
+  width: 43%;
+}
+.home-cont .up-cont .right img{
+  width: 100%;
+}
+.home-cont .down-cont{
+  padding: 25px 0;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  margin:0 auto 20px auto;
+  position: relative;
+  top: -40px;
+  width:90%;
+  box-shadow: 0px 0px 3px #e4e4e4;
+}
+.home-cont .down-cont .down-con{
+  width:90%;
+  margin: auto;
+  font-size: 3.3vw;
+  color: #03A9F4;
+}
+.home-cont .down-cont .down-con .down-flex{
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+.home-cont .down-cont .down-con img{
+  width:10%;
+  margin-right: 5px;
+}
+.agree{
+  position: fixed;
+  width: 80%;
+  padding: 20px 0;
+  bottom: 0px;
+  text-align: center;
+  background-color: white;
+  margin:auto;
+  text-align:center;
+}
+.form form b{
+  color: red;
+}
+.form form label{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.form form select, input{
+  width:100%;
+  border: 0;
+  padding: 15px 5%;
+  font-size: 4vw;
+  margin-top: 5px;
+  border-radius: 8px;
+  outline: 0;
+  background-color: #ededed;
+}
+.form form input{
+  width:90%;
+  border: 0;
+  padding: 15px 5%;
+  font-size: 4vw;
+  margin-top: 5px;
+  border-radius: 8px;
+  outline: 0;
+  background-color: #ebf4ffb5;
+}
+.form form h4{
+  color:#6c80ff;
+  font-size: 7vw;
+  text-align: center;
+}
+.topcont{
+  background-image: linear-gradient(#7eaff6 3%,#115490 83%,#7eaff6);
+  width: 100%;
+  padding: 10px 0;
+  height: max-content;
+}
+.topcont .topcontin{
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
+.topcont .topcontin .upper{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.topcont .topcontin .upper img{
+  width: 9%;
+}
+.topcont .topcontin .downer{
+  margin: 40px 0;
+  text-align: center;
+}
+.topcont .topcontin .downer button{
+  border: 0;
+  border-radius: 50px;
+  width: 90%;
+  font-size: 5vw;
+  padding: 12px 0;
+  background-image: linear-gradient(#fcbf39 , #fcc03f);
+  color: #880E4F;
+  box-shadow: inset 0 0 8px white;
+}
+.process{
+  background-color: transparent;
+  width: 81%;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #bfd8fc;
+  padding: 7px 20px;
+  height: max-content;
+  margin: auto;
+  top: -26px;
+  position: relative;
+  color: #115490;
+}
+.process .pro{
+  width: 80%;
+  margin: auto;
+}
+.process .pro .pr{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 2.8vw;
+  text-align: center;
+}
+.process .pro .pr .p .st{
+  padding: 4px 6px;
+  background-color: #115490;
+  width: 55%;
+  margin:4px auto;
+  border-radius: 5px 100% 100% 5px;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+}
+.inv{
+  background-image: linear-gradient(#7eaff6 3%,#115490 83%,#7eaff6);
+  width: 81%;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #bfd8fc;
+  padding: 7px 20px;
+  height: max-content;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+.nav{
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 4px #bfd8fc;
+  position: fixed;
+  bottom: 0;
+  border-radius: 30px 30px 0 0;
+  width: 100%;
+  padding: 30px 0;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.nav b{
+  font-size: 6vw;
+}
+.witdi{
+  width: 85%;
+  margin: auto;
+  padding: 10px 20px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  color: #00004d;
+}
+.jc{
+  display:inline-flex;
+  justify-content:space-between;
+  width: 100%;
+}
+</style>
+<body>
+  <div class="home-cont">
+    
+    <div class="up-cont">
+      <div class="left" style="text-shadow:2px 2px 2px black;">
+        <p style="color:white; font-weight:bold; text-align:center; font-size:4vw;">OBTAINABLE AMOUNT</p>
+        <h1> <span style="color:white; font-size:7vw;">&#8358;</span><b style="color:white; font-size:12vw;">200,000</b></h1>
+      </div>
+      <div class="right">
+        <img src="logo.png">
+      </div>
+    </div>
+    <div class="down-cont">
+      <div class="down-con">
+        <div class="down-flex">
+          <img src="logo.png">
+          <h2 style="font-size:7vw; color:#03A9F4;"><i>SuccessLoan</i></h2>
+        </div>
+        
+        <button style="margin:10px 0; padding:3px 10px; border-radius:50px; border:1.5px solid #880E4F; color:#03A9F4; background-color:white; font-weight:bold;">We will never ask for your property document</button><br><br>
+       <p style="font-size: 3vw; color:#014086;">Make sure all information is filled in correctly to prevent the denial of your loan offer!</p><br><br>
+        
+        <div class="form">
+          
+          <form style="margin:20px 0" action="identification.html">
+             
+
+
+          ;">Contact 1</h4><br><br>
+          <label for="ms"><b>*</b> Name</label><br>
+<input required " placeholder="Please enter"><br><br><br>
+
+<label for="ms"><b>*</b> Relation</label><br>
+<select required id="ms" name="ms">
+  <option value="volvo"></option>
+  <option value="saab">Family</option>
+  <option value="fiat">Friend</option>
+  <option value="audi">Colleague</option>
+</select><br><br><br>
+
+<label for="ms"><b>*</b> Telephone number</label><br>
+<input required type="number" placeholder="Please enter"><br><br><br><br>
+
+<h4 style="color:#014086;">Contact 2</h4><br><br>
+          <label for="ms"><b>*</b> Name</label><br>
+<input required type="text" placeholder="Please enter"><br><br><br>
+
+<label for="ms"><b>*</b> Relation</label><br>
+<select required id="ms" name="ms">
+  <option value="volvo"></option>
+  <option value="saab">Family</option>
+  <option value="fiat">Friend</option>
+  <option value="audi">Colleague</option>
+</select><br><br><br>
+
+<label for="ms"><b>*</b> Telephone number</label><br>
+<input required type="number" placeholder="Please enter"><br><br><br>
+
+<div class="pi" style="background-color:#FF8200; padding:13px 0; text-align:center; color:white;">
+            <h3>Identification</h3>
+          </div><br>
+          <p style="text-align:center;">How to get my BVN? Using your BVN phone number</p><br>
+          <div class="pi" style="background-color:#014086; padding:6px 0; text-align:center; color:white;">
+            <h3>Dial *565*0#</h3>
+          </div><br><br>
+          <label for="ms"><b>*</b> BVN number</label><br>
+<input required type="number" placeholder="Please enter"><br><br><br>
+
+<label for="ms"><b>*</b> Date of birth</label><br>
+<input required type="date" placeholder="Please enter"><br><br><br>
+
+<label for="ms"><b>*</b> Gender</label><br>
+<select required id="ms" name="ms">
+  <option value="volvo"></option>
+  <option value="saab">Male</option>
+  <option value="fiat">Female</option>
+</select><br><br><br>
+
+<label for="ms"><b>*</b> Loan purpose</label><br>
+<select required id="ms" name="ms">
+  <option value="volvo"></option>
+  <option value="saab">Food</option>
+  <option value="fiat">Start business</option>
+  <option value="audi">Party/Ceremony</option>
+  <option value="audi">For house</option>
+  <option value="audi">Develop business</option>
+</select><br><br><br>
+
+<div class="agree">
+    <p style="font-size: 3vw; color:#014086;">&#128274; Don't worry, we won't share your information with anyone!</p>
+    <button style="background-color:#03A9F4; color:white; padding:10px 0px; width:80%; font-size:5vw; border:0; border-radius:8px; margin:10px 0; font-weight:bold;">Move to Next</button>
+  </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+  </html>
+  
