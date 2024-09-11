@@ -1,1 +1,211 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuccessLoan</title>
+<meta name="description" content="comfortable loan for every individual">
+<link rel="icon" href="logo.png">
+</head>
+<style>
+  a{
+    color:unset;
+    text-decoration:none;
+  }
+  body{
+    margin: 0;
+    font-family: Sans-Serif;
+    background-color: #f8f8f8;
+  }
+  .body{
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    background-color: transparent;
+    margin: 0;
+  }
+  .bod{
+    width:90%;
+    background-color: transparent;
+    padding:10px 0;
+    margin:90px auto;
+    position: relative;
+  }
+  .wit{
+    background-color: white;
+    width:100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px #b6b6b6;
+  }
+  .witin{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .am span{
+    padding:2px 7.5px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #880E4F, white);
+    font-size: 17px;
+    position: relative;
+    top: -6px;
+    color: white;
+  }
+  .am button{
+    color: #014086;
+    border: 1.5px solid #014086;
+    padding: 5px 15px;
+    margin: 0 4px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .te{
+    width: 100%;
+    text-align: left;
+  }
+  .tej{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .tej div{
+    width: 27%;
+    padding: 1px 6px;
+    background-color: #ddedff91;
+    text-align: center;
+    border-radius: 10px;
+    color: #014086;
+    line-height: 0px;
+    border: 1.5px solid #014086;
+  }
+  .side{
+    text-align: left;
+    width: 1p0%;
+  }
+  .side .div{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+  }
+  .db{
+    font-weight: bold;
+    color: #03A9F4;
+  }
+  .top{
+    color: #03A9F4;
+    background-color: white;
+    padding:8px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  .top p{
+    position: relative;
+    width:85%;
+    top: 15px;
+  }
+  </style>
+  <body>
+    <div class="bod">
+      <div class="wit">
+        <div class="witin">
+          <div class="am">
+            <p style="color:#b6b6b6;"><b>Available Amount</b></p>
+            <h1><span>-</span> &#8358;60,000 <span>+</span></h1>
+            <button style=" background-image: linear-gradient(to right, #880E4F, #03A9F4); color:white; border:0; padding:6px 15px">&#8358;60,000</button>
+            <button>&#8358;120,000</button>
+            <button>&#8358;200,000</button>
+          </div>
+          <div style="width:100%; padding:1px; background-color:#f2f2f2; margin:15px auto;"></div>
+          
+          <div class="te">
+            <p style="color:#002753c5;"><b>Choose A Loan Tenure</b></p>
+            <div class="tej">
+              <div>
+                <h4>30 Days</h4>
+                <p>10% Monthly</p>
+              </div>
+              <div style="background-color:#f0f0f0a1; border:1.5px solid #b6b6b6; color:#b6b6b6;">
+                <h4>91 Days</h4>
+                <p>Locked</p>
+              </div>
+              <div style="background-color:transparent; border:1.5px solid transparent; color:#b6b6b6;">
+                
+              </div>
+            </div>
+            <p style="font-size:13px; color:#880E4F;"><b><sup style="border:1px solid #FF8200; padding:1px 5.5px; border-radius:50px;">!</sup> The longer the loan tenure the cheaper the price.</b></p>
+          </div>
+          <div style="width:100%; padding:1px; background-color:#f2f2f2; margin:15px auto;"></div>
+          
+          <div class="side">
+            <div class="div">
+              <div><p>Tenure</p></div>
+              <div class="db"><p>1 installment(s) for 30 days</p></div>
+            </div>
+            <div class="div">
+              <div><p>Coupons</p></div>
+              <div class="db"><p><button style="background-color:#880E4F; color:white; position:relative; border:0; border-radius:50px; width:max-content; padding:3px 10px; font-weight:bold; font-size:10px;">Coupon 0 available</button></p></div>
+            </div>
+            <div class="div">
+              <div><p>Interest</p></div>
+              <div class="db"><p>10.0%</p></div>
+            </div>
+            <p style="font-size:10.5px; color:white; background-color:#03A9F4; width:max-content; padding:4px 15px; border-radius:50px;"><b><sup style="border:1px solid #880E4F; padding:1px 5px; border-radius:50px;">!</sup> You need pay back about <b style="color:#880E4F;">&#8358;66,000</b> each installment in <b style="color:#880E4F;">30</b> days</b></p>
+          </div>
+        </div>
+      </div>
+      
+       <div class="wit" style="margin:15px 0 0 0;">
+      <div class="witin" style="border-radius:10px; text-align:left;">
+        <p style="color:#002753c5;"><b>Disbursment Account</b></p>
+          <div class="side">
+            <form action="https://paystack.com/pay/j-dq693eyu">
+              <div>
+                <label><sup style="color:red;">*</sup>Bank Name</label>
+                <input style="color:#014086; border-radius:10px; border:0; outline:0; padding:20px 8px; background-color:#ebf4ff; width:90%;" type="text" placeholder=" Enter bank name" required>
+              </div><br>
+              <div>
+                <label><sup style="color:red;">*</sup>Account Number</label>
+                <input required style="color:#014086; border-radius:10px; border:0; outline:0; padding:20px 8px; background-color:#ebf4ff; width:90%;" type="number" placeholder=" Enter account number">
+              </div>
+              <div style="width:80%; position:fixed; bottom:20px;">
+                <button style="background-color:#880E4F; color:white; font-weight:bold; font-size:17px; width:100%; padding:13px 0; border:0; border-radius:50px;" type="submit">Confirm & Withdraw</button>
+              </div>
+            </form>
+            <p style="font-size:15px; color:#03A9F4; width:100%; padding:4px 0;"><b>Note: To confirm that the account number you entered is yours, you are required to pay <b style="color:#880E4F;">&#8358;200</b> with the same account you entered or with any account that carry your full name.</b></p>
+          </div>
+        </div>
+        </div>
+      
+      <div class="wit" style="margin:15px 0 0 0;">
+      <div class="witin" style="border-radius:10px;">
+          <div class="side">
+            <div class="div">
+              <div><p>Repayment Amount</p></div>
+              <div class="db"><p>&#8358;66,000 - &#8358;200</p></div>
+            </div>
+            <div class="div">
+              <div><p>Total Payment</p></div>
+              <div class="db"><p>&#8358;65,800</p></div>
+            </div>
+            <p style="font-size:15px; color:#03A9F4; background-color:transparent; width:100%; padding:4px; border-radius:50px;"><b>Note: It is important that you repay your loan as at when due to maintain a good credit report and avoid rollover fee.</b></p>
+          </div>
+        </div>
+        </div>
+        
+       
+    </div>
+    <div class="top">
+      <img src="logo.png" style="width:15%;"><p><b>Withdraw Funds</b></p>
+    </div>
+  </body>
+                                    </html>
+
+  
